@@ -15,3 +15,9 @@ Counting sort is a non-comparison based sorting technique that works by counting
 - Average complexity: `n+r`
 - Best complexity: `n+r`
 - Space complexity: `n+r`
+
+# Radix sort
+Radix sort is a non-comparison based sorting technique that works by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered. For this reason, radix sort has also been called bucket sort and digital sort.<br>
+d is the maximum number of digits; n is the number of input integers; b is the base for representing numbers
+- Worst complexity: `d*(n+b)`
+- Space complexity: `n+d`
