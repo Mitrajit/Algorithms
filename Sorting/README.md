@@ -1,6 +1,13 @@
 # Sorting algorithms
-Sorting algorithms that are not easy to find are displayed here with explanation.
+A quick and easy summary of all popular sorting algorithms under a single umbrella.
 <br>
+
+# Insertion sort
+Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time and places it in the correct position by comparing it with the previous items till the current item is greater than or equal previous. Insertion sort is very efficient for small data sets than its competition algorithms as it evades extra overhead from the recursive function calls. It is also very space efficient (in-place) and stable. 
+- Worst complexity: `n^2`
+- Average complexity: `n^2`
+- Best complexity: `n`
+- Space complexity: `1`
 
 # Timsort - Tim Peters
 A hybrid sorting algorithm that combines the power of Insertion sort to sort small fragments and the power of Merge sort to parallely merge the sorted fragments. This sorting technique is a default in Java’s Arrays.sort() as well as Python’s sorted() and sort(). I personally love this algorithm due to its stable nature and best in class time complexity without disintegration like quicksort.
