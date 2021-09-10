@@ -1,4 +1,4 @@
-// FInding Minimum and maximum in an array using least number of comparison
+// Finding Minimum and maximum in an array using least number of comparison
 import java.util.Scanner;
 public class Q2MiniMax{
   public static void linear(int array[]){ // Worst case comparison 2(N-1)
